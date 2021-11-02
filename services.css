@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #C4C9C1;
+}
+.h1{
+    text-shadow: 1px 1px 3px black;
+}
+
+
+footer{
+    background-color: #C4C9C1;
+    height: 80px;
+    padding-top: 45px;
+    border-top: 3px solid #146;
+    border-bottom: 3px solid #146;
+    text-align: center;
+}
+.div{
+    display: table;
+    margin: 0 auto;
+}
+.pose{
+    background-color:#146 ;
+    display:flex;
+    flex-direction: row;
+    padding:120px 10px; 
+    box-shadow: 5px 5px 10px black;   
+}
+p{
+    font-size: 25px;
+}
+
+.a{
+   
+    margin: 65px 45px;
+}
+
+.b{
+    margin: 65px 45px;
+}
+
+.c{
+    margin: 65px 45px;
+}
+.a img:hover{
+    box-shadow: 5px 5px 10px black; 
+ border: 1px  solid black;
+}
+.b img:hover{
+    box-shadow: 5px 5px 10px black; 
+ border: 1px  solid black;
+}
+.c img:hover{
+    box-shadow: 5px 5px 10px black; 
+ border: 1px  solid black;
+}
+h3{
+    text-align: center;
+}
+/*pour les differents types d'écrans======================*/
+
+@media screen and (max-width: 750px) {
+
+  .div{
+    display: table;
+    margin: 0 auto;
+}
+.pose{
+    background-color:#146 ;
+  display: block;
+    padding: 1px 10px; 
+    box-shadow: 5px 5px 10px black;
+  
+} 
+p{
+    font-size: 15px;
+} 
+}
+@media screen and (max-width: 1000px)
+{
+
+    .a{
+        position: relative;
+        right: 6.2%;
+        width: 10%;
+        padding:12px;
+        
+        
+    }
+    .c{
+        position: relative;
+        left: 4.5%;
+        width: 10%;
+      padding:12px;
+    }
+    .b{
+        
+        position: relative;
+        right: 1%;
+        width: 10%;
+        padding:12px;
+        
+    }
+    p{
+        font-size: 13px;
+        text-align: center;
+    }
+   
+}
+
+
+
