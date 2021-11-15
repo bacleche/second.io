@@ -60,54 +60,5 @@ h3{
 }
 /*pour les differents types d'écrans======================*/
 
-@media screen and (max-width: 750px) {
-
-  .div{
-    display: table;
-    margin: 0 auto;
-}
-.pose{
-    background-color:#146 ;
-  display: block;
-    padding: 1px 10px; 
-    box-shadow: 5px 5px 10px black;
-  
-} 
-p{
-    font-size: 15px;
-} 
-}
-@media screen and (max-width: 1000px)
-{
-
-    .a{
-        position: relative;
-        right: 6.2%;
-        width: 10%;
-        padding:12px;
-        
-        
-    }
-    .c{
-        position: relative;
-        left: 4.5%;
-        width: 10%;
-      padding:12px;
-    }
-    .b{
-        
-        position: relative;
-        right: 1%;
-        width: 10%;
-        padding:12px;
-        
-    }
-    p{
-        font-size: 13px;
-        text-align: center;
-    }
-   
-}
-
 
 
